@@ -26,12 +26,12 @@ function pauseTrack() {
 }
 
 function rewindTrack() {
-    audioEl.currentTime = 0
+    audioEl.currentTime = 0;
 }
 
 
 // add the reactions (the event we want to listen for)
-albumCovers.forEach(album => album.addEventListener('click', playTrack));
+albumCovers.forEach(album => album.addEventListener('click', loadAudio));
 
 //custom audio controls
 playButton.addEventListener('click', playTrack);
