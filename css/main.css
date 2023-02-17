@@ -17,3 +17,17 @@ body {
 .audio img {
     cursor: pointer;
 }
+
+.controls {
+    margin-top: 1.5em;
+}
+
+.controls button {
+    padding: 8px 14px; 
+    border-radius: 0.5em;
+    margin: 0 1em; 
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+}
